@@ -1,7 +1,38 @@
-site_name: wstools.github.io
+site_name: Wandering Stag
 
 nav:
   - Install: install.md
 
 theme:
   name: material
+  logo: wanderingstag_logo.svg
+  favicon: wanderingstag_logo.svg
+  features:
+    - content.code.copy
+    - navigation.footer
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+copyright: >
+  Copyright &copy; 2011 - 2023 Wandering Stag, LLC and Skyler Hart
