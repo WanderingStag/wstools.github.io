@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Getting Started","text":"<p>Full code available on GitHub.</p>"},{"location":"#commands","title":"Commands","text":""},{"location":"Install/","title":"Install","text":""},{"location":"Install/#test","title":"Test","text":""}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Getting Started","text":"<p>Full code available on GitHub.</p>"},{"location":"#commands","title":"Commands","text":""}]}

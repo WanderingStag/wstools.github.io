@@ -1,7 +1,8 @@
 site_name: Wandering Stag
+site_author: Skyler Hart
+site_description: Test description
 
-nav:
-  - Install: install.md
+repo_name: WanderingStag/WSTools
 
 theme:
   name: material
@@ -10,13 +11,16 @@ theme:
   features:
     - content.code.copy
     - navigation.footer
-  palette:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
 
-    # Palette toggle for automatic mode
-    #- media: "(prefers-color-scheme)"
-    #  toggle:
-    #    icon: material/brightness-auto
-    #    name: Switch to light mode
+  palette:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -33,6 +37,9 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
+
+plugins:
+  - search
 
 copyright: >
   Copyright &copy; 2011 - 2023 Wandering Stag, LLC and Skyler Hart
