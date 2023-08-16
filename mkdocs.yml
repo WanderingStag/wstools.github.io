@@ -6,8 +6,8 @@ repo_name: WanderingStag/WSTools
 
 theme:
   name: material
-  logo: wanderingstag_logo.svg
-  favicon: wanderingstag_logo.svg
+  #logo: wanderingstag_logo.svg
+  #favicon: wanderingstag_logo.svg
   features:
     - content.code.copy
     - navigation.footer
