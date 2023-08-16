@@ -1,0 +1,7 @@
+site_name: wstools.github.io
+
+nav:
+  - Install: install.md
+
+theme:
+  name: material
