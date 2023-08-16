@@ -3,11 +3,18 @@ site_author: Skyler Hart
 site_description: Test description
 
 repo_name: WanderingStag/WSTools
+repo_url: https://github.com/WanderingStag/WSTools
+
+nav:
+  - Home: 'index.md'
+  - WSTools:
+    - "Issues": https://github.com/WanderingStag/WSTools/issues
+    - "Report Security Issue": https://github.com/WanderingStag/WSTools/security
 
 theme:
   name: material
-  #logo: wanderingstag_logo.svg
-  #favicon: wanderingstag_logo.svg
+  logo: wanderingstag_logo.svg
+  favicon: wanderingstag_logo.svg
   features:
     - content.code.copy
     - navigation.footer
