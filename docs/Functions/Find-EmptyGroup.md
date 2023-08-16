@@ -1,0 +1,67 @@
+---
+external help file: WSTools-help.xml
+Module Name: WSTools
+online version: https://wanderingstag.github.io
+schema: 2.0.0
+---
+
+# Find-EmptyGroup
+
+## SYNOPSIS
+This function will show empty groups.
+
+## SYNTAX
+
+```
+Find-EmptyGroup [[-SearchBase] <String>] [<CommonParameters>]
+```
+
+## DESCRIPTION
+This function will show empty groups in your domain.
+
+## EXAMPLES
+
+### EXAMPLE 1
+```
+Find-EmptyGroups -SearchBase "OU=test,dc=yourdomain,dc=com"
+```
+
+This function searches the test OU under the yourdomain.com domain and saves a csv with empty groups to c:\test\emptygroups.csv.
+
+## PARAMETERS
+
+### -SearchBase
+Specific OU to search.
+If not included, the entire domain will be searched.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases:
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216).
+
+## INPUTS
+
+## OUTPUTS
+
+## NOTES
+AUTHOR: Skyler Hart
+CREATED: 2014-01-18 11:50:00
+LASTEDIT: 2022-09-01 21:59:13
+KEYWORDS: Groups, empty groups, group management
+REQUIRES:
+    ActiveDirectory
+
+## RELATED LINKS
+
+[https://wanderingstag.github.io](https://wanderingstag.github.io)
+

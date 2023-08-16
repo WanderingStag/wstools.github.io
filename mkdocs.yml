@@ -1,15 +1,16 @@
 site_name: Wandering Stag
 site_author: Skyler Hart
-site_description: Test description
+site_description: Wandering Stag, LLC and Skyler Hart provide some open source tools for management of Windows operating systems.
 
 repo_name: WanderingStag/WSTools
 repo_url: https://github.com/WanderingStag/WSTools
 
-nav:
-  - Home: 'index.md'
-  - WSTools:
-    - "Issues": https://github.com/WanderingStag/WSTools/issues
-    - "Report Security Issue": https://github.com/WanderingStag/WSTools/security
+#nav:
+#  - Home: 'index.md'
+#  - WSTools:
+#    - "About": 'WSTools\WSTools.md'
+#    - "Issues": https://github.com/WanderingStag/WSTools/issues
+#    - "Report Security Issue": https://github.com/WanderingStag/WSTools/security
 
 theme:
   name: material
@@ -46,7 +47,21 @@ theme:
         name: Switch to light mode
 
 plugins:
+  - git-authors
+  - offline
   - search
 
 copyright: >
   Copyright &copy; 2011 - 2023 Wandering Stag, LLC and Skyler Hart
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/WanderingStag
+      name: Wandering Stag, LLC on GitHub
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/Skyler-Hart
+      name: Skyler Hart on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/skylerhart/
+      name: Skyler Hart on LinkedIn
