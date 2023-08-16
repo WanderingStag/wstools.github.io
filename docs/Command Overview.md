@@ -2,7 +2,7 @@
 
 ## Description
 
-This module contains over 150 different functions used for day to day tasks and once in a blue moon tasks. With more being written all the time. It is an accumulation of thousands of hours of research, development, testing, and real world use by multiple organizations. It covers domain management (Active Directory – Windows domains), Insider Threat, remediation/patch management, PowerShell automation, and several other areas.
+This module contains over 300 different functions used for day to day tasks and once in a blue moon tasks. With more being written all the time. It is an accumulation of thousands of hours of research, development, testing, and real world use by multiple organizations. It covers domain management (Active Directory – Windows domains), Insider Threat, remediation/patch management, PowerShell automation, and several other areas.
 
 ## WSTools Cmdlets
 
